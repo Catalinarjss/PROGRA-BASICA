@@ -5,9 +5,9 @@ num1 = float(input("Introduce el primer número: "))
 num2 = float(input("Introduce el segundo número: "))
 
 #Se solicita la operación a realizar
-operacion = input("Elige la operación (suma, resta, multiplicacion, division): ")
+operacion = input("Elige la operación: suma, resta, multiplicacion, division : ")
 
-# Realizar la operación
+#Realiza la operación
 if operacion == "suma":
     print(f"{num1} + {num2} = {num1 + num2}")
 elif operacion == "resta":
